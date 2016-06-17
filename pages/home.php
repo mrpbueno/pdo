@@ -4,9 +4,9 @@
     <thead>
     <tr>
         <th>Nome</th>
-        <th>#</th>
-        <th>#</th>
-        <th>#</th>
+        <th>Detalhar</th>
+        <th>Editar</th>
+        <th>Excluir</th>
     </tr>
     </thead>
     <tbody>
