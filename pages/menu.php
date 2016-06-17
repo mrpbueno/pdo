@@ -4,6 +4,7 @@
         <ul class="nav navbar-nav navbar-left">
             <li><a href="/">Home</a></li>
             <li><a href="/topalunos">Top Alunos</a></li>
+            <li><a href="/cadastro">Cadastro</a></li>
         </ul>
         <form class="navbar-form navbar-right">
             <div class="input-group">

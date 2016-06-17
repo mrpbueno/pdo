@@ -13,13 +13,13 @@
 <div class="container">
 <?php
 
-require_once ('menu.php');
-require_once ('conexao.php');
-require_once ('rotas.php');
-require_once ('funcoes.php');
+require_once ('pages/menu.php');
+require_once ('include/conexao.php');
+require_once ('include/rotas.php');
+require_once ('include/funcoes.php');
 $path = !empty(getPath()[1]) ? getPath()[1] : "home";
 validaRota($path, $rotas);
-require_once ('footer.php');
+require_once ('pages/footer.php');
 
 ?>
 </div>

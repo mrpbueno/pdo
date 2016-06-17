@@ -1,5 +1,5 @@
 CREATE TABLE `alunos` (
-  `id` int(11) NOT NULL PRIMARY KEY,
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `nome` varchar(255) NOT NULL,
   `nota` int(11) NOT NULL
 ) DEFAULT CHARSET=utf8;
